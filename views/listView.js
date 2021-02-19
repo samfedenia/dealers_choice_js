@@ -20,10 +20,8 @@ module.exports = (books) => html`<!DOCTYPE html>
                 <a href="/books/${book.id}">${book.title} <br /> </a>
                 &emsp;&rdca;&emsp;By: ${book.first_name} ${book.last_name}
               </li>
-              <p></p>`;
           })}
         </ul>
       </div>
-      <script></script>
     </body>
   </html>`;
