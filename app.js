@@ -19,6 +19,7 @@ app.use("/*", (req, res) => {
 
 app.use(function (err, req, res, next) {
   console.error(err.stack);
+  //you could chain these like: res.status(404).send(notFoundView())
   res.status(404);
   res.send(notFoundView());
 });

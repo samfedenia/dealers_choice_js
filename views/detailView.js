@@ -23,6 +23,7 @@ module.exports = (book) => html`<!DOCTYPE html>
           <li><strong>ISBN:</strong> ${book.isbn}</li>
         </ul>
       </div>
+      <!--looks like you have a stray script tag here -->
       <script></script>
     </body>
   </html>`;
